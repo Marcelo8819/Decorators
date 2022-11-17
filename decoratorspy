@@ -7,7 +7,7 @@ class uppercase(object):
     def __call__(self,*args):
         self.f(args[0].upper())
 
-@uppercase      
+@uppercase # o decorators atribui uma nova funcionalidade a função já existente 
 def nome(nome):
         print('Nome: %s' %  nome.upper())
 
